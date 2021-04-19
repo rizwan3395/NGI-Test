@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Coffee",
+        "detail": "Freshly brewed coffee.",
+        "imageUrl": "https://dummyimage.com/200x200/517568/ffffff.png&text=Coffee",
+        "price": "15.90",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Coffee",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination"
+    },
+    {
+        "name": "Breakfast",
+        "detail": "Heart, hot & full of flavour.",
+        "imageUrl": "https://dummyimage.com/200X200/517568/ffffff.png&text=Breakfast",
+        "price": "12.00",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Breakfast",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination"
+
+    },
+    {
+        "name": "Munchies",
+        "detail": "Perfectly baked goodies.",
+        "imageUrl": "https://dummyimage.com/200X200/517568/ffffff.png&text=Munchies",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Munchies",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination",
+        "price": "14.00"
+    },
+    {
+        "name": "Sandwiches",
+        "detail": "Fresh, healthy and tasty.",
+        "imageUrl": "https://dummyimage.com/200X200/517568/ffffff.png&text=Sandwiches",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Sandwiches",
+        "price": "17.09",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination"
+
+    },
+    {
+        "name": "Bar Bee Q",
+        "detail": "Hot, grilled and tasty.",
+        "imageUrl": "https://dummyimage.com/200X200/517568/ffffff.png&text=Bar+Bee+Q",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Bar+Bee+Q",
+        "price":"18.5",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination"
+
+    },
+    {
+        "name": "Beverages",
+        "detail": "Chilled, soft and hard drinks",
+        "imageUrl": "https://dummyimage.com/200X200/517568/ffffff.png&text=Beverages",
+        "largeImageUrl": "https://dummyimage.com/512x5122/517568/ffffff.png&text=Beverages",
+        "price": "5.00",
+        "longDescription": "A deliciously creamy Coffee Kick Frappe, topped with irrrestible whipped cream and indulgent Coffee Drizzle. Perfect Combination"
+
+    }
+]

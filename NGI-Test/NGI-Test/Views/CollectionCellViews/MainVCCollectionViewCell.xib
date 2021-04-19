@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainVCCollectionViewCell" id="gTV-IL-0wX" customClass="MainVCCollectionViewCell" customModule="NGI_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwz-LM-DFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iGX-d1-t99">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axR-wy-CuH" customClass="AppLabelRegular" customModule="NGI_Test" customModuleProvider="target">
+                                <rect key="frame" x="15" y="138" width="180" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                        <color key="value" name="Darkgray"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTP-mt-kAx" customClass="AppLabelRegular" customModule="NGI_Test" customModuleProvider="target">
+                                <rect key="frame" x="10" y="164" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                        <color key="value" name="Lightgray"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="axR-wy-CuH" firstAttribute="top" secondItem="iGX-d1-t99" secondAttribute="bottom" constant="10" id="9cc-eK-ahb"/>
+                            <constraint firstItem="axR-wy-CuH" firstAttribute="leading" secondItem="iGX-d1-t99" secondAttribute="leading" constant="15" id="EnH-PJ-HKV"/>
+                            <constraint firstItem="wTP-mt-kAx" firstAttribute="top" secondItem="axR-wy-CuH" secondAttribute="bottom" constant="5" id="M1n-Is-FNC"/>
+                            <constraint firstAttribute="trailing" secondItem="iGX-d1-t99" secondAttribute="trailing" id="Ws9-Lm-NE2"/>
+                            <constraint firstItem="wTP-mt-kAx" firstAttribute="leading" secondItem="axR-wy-CuH" secondAttribute="leading" constant="-5" id="bzI-zb-OWP"/>
+                            <constraint firstItem="iGX-d1-t99" firstAttribute="leading" secondItem="dwz-LM-DFJ" secondAttribute="leading" id="gMI-Nu-O7m"/>
+                            <constraint firstAttribute="trailing" secondItem="axR-wy-CuH" secondAttribute="trailing" constant="5" id="jac-kk-xdR"/>
+                            <constraint firstAttribute="trailing" secondItem="wTP-mt-kAx" secondAttribute="trailing" constant="5" id="o4j-oB-Xd3"/>
+                            <constraint firstAttribute="bottom" secondItem="wTP-mt-kAx" secondAttribute="bottom" constant="15" id="qvb-5e-FRy"/>
+                            <constraint firstItem="iGX-d1-t99" firstAttribute="top" secondItem="dwz-LM-DFJ" secondAttribute="top" id="swf-wu-PKn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dwz-LM-DFJ" secondAttribute="trailing" id="FLg-pM-56y"/>
+                <constraint firstItem="dwz-LM-DFJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="S9s-c2-Qtv"/>
+                <constraint firstAttribute="bottom" secondItem="dwz-LM-DFJ" secondAttribute="bottom" id="od1-JI-Pd9"/>
+                <constraint firstItem="dwz-LM-DFJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qX2-CJ-tGJ"/>
+            </constraints>
+            <size key="customSize" width="200" height="200"/>
+            <connections>
+                <outlet property="detail" destination="wTP-mt-kAx" id="9Ka-vB-pND"/>
+                <outlet property="image" destination="iGX-d1-t99" id="VOE-wo-qGW"/>
+                <outlet property="title" destination="axR-wy-CuH" id="lS5-3Y-9cl"/>
+            </connections>
+            <point key="canvasLocation" x="181.15942028985509" y="129.91071428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Darkgray">
+            <color red="0.19111749484454316" green="0.19019422192258886" blue="0.19204076776649748" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Lightgray">
+            <color red="0.52090124020768247" green="0.51838480909556806" blue="0.52341767131979688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
