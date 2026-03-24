@@ -7,17 +7,17 @@ Welcome to my project hub. This repository showcases the development, architectu
 ### 1. [AllFileTools](https://www.allfiletools.com/)
 * **Purpose:** A suite of high-performance tools for data format conversion (JSON, CSV, XML, PDF).
 * **Key Features:** Server-side file processing, SEO-optimized utility pages, and focus on developer/auditor workflows.
-* **Tech Stack:** [Insert your tech, e.g., Python, JavaScript, HTML/CSS]
+* **Tech Stack:** e.g., Python, JavaScript, HTML/CSS
 
 ### 2. [LetDigitalFly](https://www.letdigitalfly.com/)
 * **Purpose:** A digital content management and SEO-focused platform.
 * **Key Features:** Content strategy, search engine optimization (SEO) tools, and digital marketing insights for entrepreneurs.
-* **Tech Stack:** [Insert your tech, e.g., Next.js, WordPress, Tailwind]
+* **Tech Stack:** e.g., Next.js, WordPress, Tailwind
 
 ### 3. [ResumeSlip](https://www.resumeslip.com/)
 * **Purpose:** A specialized platform for professional career documentation.
 * **Key Features:** Streamlined document generation, user-focused UI for job seekers, and template-based styling.
-* **Tech Stack:** [Insert your tech]
+* **Tech Stack:** ReactJS, HTML/CSS, Python
 
 ## 🛠️ Skills Demonstrated
 * **Full-Stack Development:** Building, deploying, and maintaining live web applications.
